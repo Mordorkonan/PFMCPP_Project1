@@ -52,85 +52,85 @@ arm.rotateCounterClockwise();           // 4) demonstrates camelCase
 
 
 //  1)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:        numberSelector
+//  action 1:    enumerates even numbers
+numberSelector.enumerateEven();
+//  action 2:    checks 0 presence
+numberSelector.checkZeroPresence();
+//  action 3:    applies an inversion on an array
+numberSelector.invertArray();
 //  2)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:        spectrumAnalyser
+//  action 1:    switches the measurement integration period to an argument 
+spectrumAnalyser.switchIntegrationPeriodTo(argument);
+//  action 2:    bypasses the measurement from left channel
+spectrumAnalyser.bypassLeftChannel();
+//  action 3:    transforms spectrum with slope passed as an argument
+spectrumAnalyser.transformWithSlope(argument);
 //  3)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:        appWindow
+//  action 1:    shows data analysed
+appWindow.showDataAnalysed();
+//  action 2:    shrinks a sub-module inside application
+appWindow.shrinkSubModule();
+//  action 3:    returns calculated free area of application
+appWindow.getFreeArea();
 //  4)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:        cube
+//  action 1:    returns the coordinates of all vertices as 2-dimension array | small typo there
+cube.getVertices();
+//  action 2:    applies the rotation for an angle passed as an argument
+cube.rotateBy(angle);
+//  action 3:    applies the scale passed as an argument
+cube.scaleBy(scaleFactor);
 //  5)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:        searchLine
+//  action 1:    considering case sensitivity
+searchLine.considerCaseSensitivity();
+//  action 2:    filters result by date of last updates
+searchLine.showWithLatestUpdates();
+//  action 3:    clears it's content
+searchLine.clear();
 //  6)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:        appLauncher
+//  action 1:    checks for updates
+appLauncher.checkForUpdates();
+//  action 2:    hides ads
+appLauncher.hideAds();
+//  action 3:    toggles launch with windows start up
+appLauncher.setLaunchAtWindowsStartup();
 //  7)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:        cat
+//  action 1:    runs in panic
+cat.runInPanic();
+//  action 2:    falls to sleep
+cat.sleep();
+//  action 3:    starts to purr
+cat.StartPurring();
 //  8)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:        fuctionalBlock
+//  action 1:    takes random argument from an array
+functionalBlock.takeRandomArgumentFromArray();
+//  action 2:    applies calculation
+functionalBlock.applyCalc();
+//  action 3:    transforms type of calculation result into Integer
+functionalBlock.toNearestInt();
 //  9)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:        human
+//  action 1:    starts to walk
+human.startWalking();
+//  action 2:    turns around
+human.turnAround();
+//  action 3:    asks for access permission
+human.askForAccessPermission();
 //  10)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:        stateChecker
+//  action 1:    applies passed state as an argument
+stateChecker.setState(argument);
+//  action 2:    returns current state
+stateChecker.getState();
+//  action 3:    checks state with passed arguments and returns boolean
+stateChecker.isState(stateToCheck);
 
 
 #endif
