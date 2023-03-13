@@ -60,13 +60,13 @@ numberSelector.checkZeroPresence();
 //  action 3:    applies an inversion on an array
 numberSelector.invertArray();
 //  2)
-//  Noun:        oscillator
-//  action 1:    produces sine
-oscillator.produceSine();
-//  action 2:    adds a limit threshold
-oscillator.setLimitThreshold();
-//  action 3:    modulates sine with Square
-oscillator.modulateSineWith();
+//  Noun:        spectrumAnalyser
+//  action 1:    switches the measurement integration period to an argument 
+spectrumAnalyser.switchIntegrationPeriodTo(argument);
+//  action 2:    bypasses the measurement from left channel
+spectrumAnalyser.bypassLeftChannel();
+//  action 3:    transforms spectrum with slope passed as an argument
+spectrumAnalyser.transformWithSlope(argument);
 //  3)
 //  Noun:        appWindow
 //  action 1:    shows data analysed
@@ -77,8 +77,8 @@ appWindow.shrinkSubModule();
 appWindow.getFreeArea();
 //  4)
 //  Noun:        cube
-//  action 1:    returns the coordinates of all vortices as 2-dimension array
-cube.getVortices();
+//  action 1:    returns the coordinates of all vertices as 2-dimension array | small typo there
+cube.getVertices();
 //  action 2:    applies the rotation for an angle passed as an argument
 cube.rotateBy(angle);
 //  action 3:    applies the scale passed as an argument
@@ -106,7 +106,7 @@ cat.runInPanic();
 //  action 2:    falls to sleep
 cat.sleep();
 //  action 3:    starts to purr
-cat.Purr();
+cat.StartPurring();
 //  8)
 //  Noun:        fuctionalBlock
 //  action 1:    takes random argument from an array
@@ -118,11 +118,11 @@ functionalBlock.toNearestInt();
 //  9)
 //  Noun:        human
 //  action 1:    starts to walk
-human.walk();
-//  action 2:    says his name
-human.getName();
-//  action 3:    sends command to another person
-human.sendCommand();
+human.startWalking();
+//  action 2:    turns around
+human.turnAround();
+//  action 3:    asks for access permission
+human.askForAccessPermission();
 //  10)
 //  Noun:        stateChecker
 //  action 1:    applies passed state as an argument
